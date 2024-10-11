@@ -33,6 +33,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 600px;
 }
 
 .header {
@@ -113,14 +114,17 @@ nav {
 }
 
 .login-container a {
+  display: block;
   color: #fff;
   font-weight: 300;
-  font-size: 20px;
+  font-size: x-large;
   font-family: "CaveatBrush", sans-serif;
+  margin-bottom: 15px;
+  text-decoration: underline;
 }
 
 .login-container a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .input-group {
@@ -132,7 +136,7 @@ nav {
   color: #fff;
   margin-bottom: 5px;
   font-family: "CaveatBrush", sans-serif;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 #username {
@@ -170,7 +174,6 @@ nav {
 
 #show-password {
   flex: 1;
-  background: url(eyeopen.png);
   border: none;
   cursor: pointer;
   background-color: rgb(223, 206, 177);
@@ -181,6 +184,23 @@ nav {
   display: block;
   width: 30px;
   margin: auto;
+}
+
+#remember-me {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+#remember-me input {
+  height: 20px;
+  width: 20px;
+  accent-color: var(--petstay-dark-brown);
+}
+
+#remember-me label {
+  font-size: x-large;
 }
 
 button[type="submit"] {
