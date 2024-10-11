@@ -1,6 +1,6 @@
 @font-face {
   font-family: "CaveatBrush";
-  src: url("CaveatBrush-Regular.ttf") format("truetype");
+  src: url("../fonts/CaveatBrush-Regular.ttf") format("truetype");
 }
 
 :root {

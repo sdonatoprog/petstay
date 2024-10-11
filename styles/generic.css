@@ -1,6 +1,6 @@
 @font-face {
   font-family: "CaveatBrush";
-  src: url("CaveatBrush-Regular.ttf") format("truetype");
+  src: url("../fonts/CaveatBrush-Regular.ttf") format("truetype");
 }
 
 :root {
@@ -10,7 +10,7 @@
 }
 
 body {
-  background: url("background.png");
+  background: url("../images/background.png");
   background-size: cover; /* Cela ajuste l'image pour qu'elle couvre tout l'écran */
   background-repeat: no-repeat; /* Empêche l'image de se répéter */
   background-attachment: fixed; /* Rend l'image fixe */
