@@ -22,5 +22,26 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <div class="login-container">
+        <form class="login-form">
+          <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Password</label>
+            <div id="password-container">
+              <input type="password" id="password" name="password" required />
+              <button type="button" id="show-password">
+                <img src="eyeopen.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <a href="#">Forgotten password ?</a>
+          <button type="submit">Log In</button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
